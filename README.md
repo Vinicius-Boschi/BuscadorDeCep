@@ -8,7 +8,7 @@
 Poder buscar o cep de qualquer pessoa ou empresa.
 
 2. Seção Inicial<br><br>
-<img src="images/cep.jpg" alt="foto do site"> 
+<img src="img/cep.jpg" alt="foto do site"> 
 
 3. Tecnologia usadas: <br>
 
