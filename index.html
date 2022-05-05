@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Buscador de Cep</title>
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <form>
+                <div class="container__form">
+                    <label class="form_label" for="cep">Cep</label>
+                    <input type="text" id="cep" class="form_control" required placeholder="Insira o seu CEP">
+                </div>
+                <div class="container__form">
+                    <label class="form_label" for="street">Rua</label>
+                    <input type="text" class="form_control" id="rua" placeholder="...">
+                </div>
+                <div class="container__form">
+                    <label class="form_label" for="neighborhood">Bairro</label>
+                    <input type="text" class="form_control" id="bairro" placeholder="...">
+                </div>
+                <div class="container__form">
+                    <label class="form_label" for="city">Cidade</label>
+                    <input type="text" class="form_control" id="cidade" placeholder="...">
+                </div>
+                <div class="container__form">
+                    <label class="form_label" for="state">Estado</label>
+                    <input type="text" class="form_control" id="estado" placeholder="...">
+                </div>
+                <button type="submit" id="btnPesquisar" class="btn-primary">Pesquisar</button>
+                <button type="button" id="btnLimpar" class="btn-clear">Limpar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
